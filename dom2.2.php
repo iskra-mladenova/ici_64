@@ -5,6 +5,6 @@
  echo "a=".$a. ' b='. $b . ' c= '. $c ;
    If ($a < $b+$c || $b<$a+$c || $c<$a=$b || $a>$b-$c || $b>$a-$c || $c>$a-$b ){
 	   echo "Those numbers can be sides of triangle";
-     else 
+   } else {}
 		echo "Those numbers can not be sides of triangle";
 }
